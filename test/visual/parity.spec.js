@@ -6,7 +6,7 @@ const routes = [
   { path: "al-folio/projects/", id: "projects" },
   { path: "al-folio/publications/", id: "publications" },
   { path: "al-folio/repositories/", id: "repositories" },
-];
+];docker compose exec jekyll sh -c "grep -rl 'nav-item' /usr/local/bundle/gems/al_folio_core-1.0.11/"
 
 test.beforeEach(async ({}, testInfo) => {
   test.skip(!process.env.BASELINE_URL, "BASELINE_URL is not configured for visual parity checks.");
