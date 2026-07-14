@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Researcher's adventures
-permalink: /researchers-adventures/
+title: Researcher's wanderings
+permalink: /researchers-wanderings/
 nav: true
 nav_order: 3
 description: where I talk about my experience as a young researcher doing historical research

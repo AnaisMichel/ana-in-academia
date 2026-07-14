@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Concept map
-permalink: /concept-map/
+title: Grammarians' antics
+permalink: /grammarians-antics/
 nav: true
-nav_order: 2
-description: where I talk about a concept I like and use, and explain why it is interesting to understand the world, and make-up tiny-funny metaphors to explain them
+nav_order: 4
+description: about the authors of the ladies' grammars 
 ---
 
 <div class="post">
@@ -14,7 +14,7 @@ description: where I talk about a concept I like and use, and explain why it is 
   </header>
 
   <div class="post-content">
-    {% assign category_posts = site.categories["concept-map"] %}
+    {% assign category_posts = site.categories["meet-the-men"] %}
     {% for post in category_posts %}
       <article class="post-preview mb-4">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
